@@ -2,11 +2,10 @@
 module.exports = {
   mode: 'jit',
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
-  darkMode:'class',
+  darkMode:['class','[data-mode="dark"]'],
   theme: {
     extend: {},
   },
